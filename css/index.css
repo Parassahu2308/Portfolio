@@ -192,11 +192,13 @@ html{
 .about-center{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 3rem 5rem;
+    gap: 3rem ;
 }
 .left img{
-    height: 25rem;
+    position: relative;
+    height: 20rem;
     max-width: 35rem;
+    left: 5rem;
     object-fit: cover;
     box-shadow: 0 5px 10px black
 }
@@ -209,10 +211,10 @@ html{
     color:coral;
 }
 .right p{
-    line-height: 2;
+    line-height: 1;
     margin-bottom: 2rem;
     font-family: sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 a.btn{
     display: inline-block;
